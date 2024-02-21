@@ -1,3 +1,14 @@
-#!/bin/bash
-
-echo "System information has been gathered. Here’s the summary:"
+System information has been gathered. Here’s the summary:
+Date and Time: 02/20/2024 17:52:51 CST
+User: chant
+Current Working Directory: /c/Users/chant/csc2510-forked/system_info
+System Usage:
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1882    1877    1877      29672  pty0      197609 17:52:51 /usr/bin/ps
+     1585       1    1585      18224  ?         197609 17:36:39 /usr/bin/mintty
+     1586    1585    1586      28812  pty0      197609 17:36:39 /usr/bin/bash
+     1883    1877    1877      26248  pty0      197609 17:52:51 /usr/bin/bash
+     1877    1586    1877       1860  pty0      197609 17:52:51 /usr/bin/bash
+Disk Usage:
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  300G  131G  169G  44% /
