@@ -25,3 +25,7 @@ grep -E "^.{10}$" phonebook.dat
 # Problem 5
 _green "Problem 5: Contains a sequence between 6 and 8, upper or lower characters"
 grep -E "([a-zA-Z]{6,8}[[:space:]])|([[:space:]][a-zA-Z]{6,8})" phonebook.dat
+
+# Problem 6
+_green "Problem 6: Contains a local phone number"
+grep -E "[0-9]{3}-[0-9]{4}" phonebook.dat
