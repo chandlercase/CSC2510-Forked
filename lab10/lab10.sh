@@ -13,3 +13,7 @@ grep -E "^Jose|Jose$" phonebook.dat
 # Problem 2
 _green "2. Contain a sequence of at least 27 upper or lower-case alphabetic characters"
 grep -E "[a-zA-Z]{27,}" phonebook.dat
+
+# Problem 3
+_green "Problem 3: Consists of more than 18 characters"
+grep -E ".{19,}" phonebook.dat
