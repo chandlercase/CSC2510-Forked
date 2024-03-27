@@ -29,3 +29,7 @@ grep -E "([a-zA-Z]{6,8}[[:space:]])|([[:space:]][a-zA-Z]{6,8})" phonebook.dat
 # Problem 6
 _green "Problem 6: Contains a local phone number"
 grep -E "[0-9]{3}-[0-9]{4}" phonebook.dat
+
+# Problem 7
+_green "Contains valid URL on line by itself"
+grep -E "^(http|https)://[a-zA-Z0-9\./?=_-]*$" phonebook.dat
