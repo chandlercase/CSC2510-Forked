@@ -21,3 +21,7 @@ grep -E ".{19,}" phonebook.dat
 # Problem 4
 _green "Problem 4: Contains exactly 10 characters"
 grep -E "^.{10}$" phonebook.dat
+
+# Problem 5
+_green "Problem 5: Contains a sequence between 6 and 8, upper or lower characters"
+grep -E "([a-zA-Z]{6,8}[[:space:]])|([[:space:]][a-zA-Z]{6,8})" phonebook.dat
