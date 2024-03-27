@@ -17,3 +17,7 @@ grep -E "[a-zA-Z]{27,}" phonebook.dat
 # Problem 3
 _green "Problem 3: Consists of more than 18 characters"
 grep -E ".{19,}" phonebook.dat
+
+# Problem 4
+_green "Problem 4: Contains exactly 10 characters"
+grep -E "^.{10}$" phonebook.dat
